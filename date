@@ -1,0 +1,5 @@
+date=$(date +%Y.%m.%d)
+name="amartinez477"
+file="amartinez477-home-$date.tar"
+location="/home/amartinez477/tmp"
+save=$(tar.cvf$file$location)
